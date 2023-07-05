@@ -1,0 +1,1261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* putting height and width of nav-bar*/
+.nav-bar {
+    height: 72px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* this is for logo image */
+.logo {
+    height: 72px;
+    width: 124px;
+    margin-left:20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.u-img {
+    height:34px;
+    width:94px;
+}
+/* now it is for categories section*/
+.one {
+    height:72px;
+    width: 90px;
+    color: black;
+    line-height: 72px;
+}
+.one-cat {
+    text-align: center;
+}
+.one-cat:hover {
+    color:blueviolet;
+}
+/* this is for search section */
+.input-required {
+    height: 72px;
+    width: 560px;
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-search {
+    height: 48px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+}
+.input-search {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #f7f9fa;
+}
+.input-field {
+    height: 46px;
+    width: 496px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #f7f9fa;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.search {
+    height: 46px;
+    width: 46px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #f7f9fa;
+}
+.search-icon {
+    height: 30px;
+    width:30px;
+    margin: 0 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* for the udemy business */
+.ub {
+    height: 72px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* for the teach on udemy */
+.tu {
+    height: 72px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* for the my learning */
+.ml {
+    height: 72px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* for the links like udemy business, my learning and teach on udemy */
+a {
+    text-decoration: none;
+}
+.linker {
+    color: black;
+}
+.linker:hover {
+    color:blueviolet;
+    text-decoration: underline;
+}
+/* for the wishlist icon*/
+.wishlist {
+    height:72px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heart {
+    font-size: 30px;
+    color:black;
+}
+/* for the cart icon*/
+.cart {
+    height: 72px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-icon {
+    height:25px;
+    width: 25px;
+}
+/* for the notification */
+.noti {
+    height: 72px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* for the profile icon */
+.profile {
+    height: 72px;
+    width: 48px;
+    margin-right:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-icon {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* this is for menu-bar or you may say menu-bar links */
+.menu-bar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* this for first div or develop class */
+.develop {
+    margin-left: 100px;
+}
+/* this for last div or musik class */
+.musik{
+    margin-right: 100px;
+}
+/* this is for menu links */
+.menu-link {
+    color:black;
+}
+.menu-link:hover {
+    color:blueviolet;
+}
+/* this is for hero image section */
+.hero-img {
+    height: 440px;
+    width: 1340px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    background-image: url("https://img-c.udemycdn.com/notices/featured_carousel_slide/image/9ea59bc2-bd61-463e-9ce9-7e71e8e586ae.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade 2s  10s ease-in  infinite alternate-reverse; /* checking animation for the  hero images */
+}
+/* this is the image chnages from to */
+@keyframes fade {
+    from{
+        background-image: url("https://img-c.udemycdn.com/notices/featured_carousel_slide/image/9ea59bc2-bd61-463e-9ce9-7e71e8e586ae.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    to{
+        background-image: url("https://img-c.udemycdn.com/notices/featured_carousel_slide/image/acbc3467-c940-4815-9de3-a80dd1b18805.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+/* this is for the div which is over the image */
+.hero-box {
+    height: 150px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+.slow {
+    margin-top:30px;
+    margin-bottom: 20px;
+    margin-left:20px;
+}
+.para {
+    margin-top:10px;
+    margin-bottom: 20px;
+    margin-left:20px;
+    margin-right:20px;
+    font-size: 18px;
+}
+.course {
+    text-decoration: underline;
+}
+.course:active {
+    color: red;
+}
+/* this is blank div because i don't want margin to take thatwise */
+.blank {
+    height: 50px;
+    width: 100%;
+}
+/* now time to body content */
+.body-content {
+    height: 1100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.head-learn {
+    height: 50px;
+    width: 1292px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-learning-link {
+    text-decoration: underline;
+}
+.my-learning-link:hover {
+    text-decoration: none;
+    color:blueviolet;
+}
+.my-learning-link:active {
+    color: red;
+}
+/* now for video content */
+.content {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.first-video {
+    height: 250px;
+    width:400px;
+}
+.first-video:hover {
+    box-shadow: 4px 4px 16px black;
+    transition: .2s linear;
+}
+video {
+    height:150px;
+    width: 100%;
+}
+.second-video {
+    height: 250px;
+    width:400px;
+}
+.second-video:hover {
+    box-shadow: 4px 4px 16px black;
+    transition: .2s linear;
+}
+.third-video {
+    height: 250px;
+    width:400px;
+}
+.third-video:hover {
+    box-shadow: 4px 4px 16px black;
+    transition: .2s linear;
+}
+.video-title {
+    margin-top: 10px;
+    text-align: center;
+}
+a p{
+    margin-top: 10px;
+    text-align: center;
+}
+a p {
+    color: black;
+}
+a p:hover {
+    color:blueviolet;
+}
+/* this is for udemy business */
+.ud-bus {
+    height:90px;
+    width:96%;
+    margin: 0 auto;
+    background-color: black;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ud-bus-content {
+    color:white;
+    margin-left: 10px;
+}
+.cancel {
+    margin-right: 20px;
+    height:45px;
+    width:100px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    outline: none;
+}
+.get-udb {
+    height:50px;
+    width:200px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    outline: none;
+}
+/* paid course intro start heading */
+.about-paid {
+    margin-left:30px;
+    margin-top:25px;
+    font-weight:700;
+    font-size: 45px;
+}
+.subheading {
+    margin-left:30px;
+    margin-top:25px;
+    font-weight:700;
+    font-size: 30px;
+    margin-bottom:30px;
+}
+.paid {
+    height: 325px;
+    width: 96%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: .5px solid gray;
+    display: flex;
+    align-items: center;
+}
+.paid:hover {
+    box-shadow: 4px 4px 16px black;
+}
+.paid-img {
+    height: 270px;
+    width:480x;
+    margin-left: 20px;
+}
+.about-course {
+    height: 270px;
+    width: 400px;
+    margin-left: 50px;
+}
+.about-course a {
+    color: black;
+}
+.about-course a:hover {
+    color: blueviolet;
+}
+.about-course h4 {
+    margin-top: 10px;
+}
+.about-course p {
+    margin-top: 10px;
+}
+.best {
+    margin-left:5px;
+    color:black;
+    background-color: yellowgreen;
+    border: none;
+    outline: none;
+}
+.star {
+    color: rgba(131, 105, 4, 0.95);
+}
+.price {
+    margin-top:40px;
+}
+/* your viewd section */
+.you-viewed {
+    margin-left:30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height:50px;
+    width:950px;
+}
+span {
+    color: blueviolet;
+}
+/* course which you have enrolled or have checkout  */
+.course-video {
+    height: 400px;
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.src:hover {
+    box-shadow: 4px 4px 16px black;
+    transition: 0.5s ease;
+}
+.box1 {
+    height: 350px;
+    width: 250px;
+}
+.box1-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/5088684_a587_7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.src a {
+    color: black;
+}
+.box2 {
+    height: 350px;
+    width: 250px;
+}
+.box2-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/1026604_790b_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.box3 {
+    height: 350px;
+    width: 250px;
+}
+.box3-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/3671332_b86a_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box3-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.box4 {
+    height: 350px;
+    width: 250px;
+}
+.box4-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/2508942_11d3_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box4-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 230px;
+}
+.box5 {
+    height: 350px;
+    width: 250px;
+}
+.box5-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/4310698_817f_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box5-link {
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50px;
+    width: 230px;
+}
+.src-link a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+.details {
+    margin-top: 15px;
+    margin-left:10px;
+}
+.best-sell {
+    margin-top:5px;
+    margin-left: 28px;
+}
+.rupees {
+    margin-top: 30px;
+}
+/* this is for the adertisement in text of our course */
+.horo {
+    margin-top: 30px;
+}
+.section {
+    height: 90px;
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.demand-skills {
+    height: 80px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+.demand-skills-icon {
+    height: 40px;
+    width: 40px;
+    background-image: url("udemy-player-video-icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.demand-skills-content {
+    height: 40px;
+    width: 350px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.real-world {
+    height: 80px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+.real-world-icon {
+    height: 40px;
+    width: 40px;
+    background-image: url("udemy-star-icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.real-world-content {
+    height: 40px;
+    width: 350px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.lifetime-access {
+    height: 80px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+.lifetime-access-icon {
+    height: 50px;
+    width: 50px;
+}
+.infinity {
+    height:40px;
+    width: 40px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.lifetime-access-content {
+    height: 40px;
+    width: 350px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* this is for the second time course section so i will 
+copy it from the above which i have built */
+.students {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* this is for the second time course section so i will 
+copy it from the above which i have built */
+.course-video2 {
+    height: 400px;
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.source:hover {
+    box-shadow: 4px 4px 16px black;
+    transition: 0.5s ease;
+}
+.box6 {
+    height: 350px;
+    width: 250px;
+}
+.box6-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/5088684_a587_7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box6-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.source a {
+    color: black;
+}
+.box7 {
+    height: 350px;
+    width: 250px;
+}
+.box7-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/1026604_790b_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box7-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.box8 {
+    height: 350px;
+    width: 250px;
+}
+.box8-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/3671332_b86a_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box8-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.box9 {
+    height: 350px;
+    width: 250px;
+}
+.box9-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/2508942_11d3_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box9-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 230px;
+}
+.box10 {
+    height: 350px;
+    width: 250px;
+}
+.box10-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/4310698_817f_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box10-link {
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50px;
+    width: 230px;
+}
+.src-link a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+.details2 {
+    margin-top: 15px;
+    margin-left:10px;
+}
+.best-sellr {
+    margin-top:5px;
+    margin-left: 28px;
+}
+.rupaye {
+    margin-top: 30px;
+}
+/* after that enrolled section */
+.enrolled {
+    height: 80px;
+    width: 1000px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+/* this is for the third time course section */
+
+.course-video2 {
+    height: 400px;
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.source:hover {
+    box-shadow: 4px 4px 16px black;
+    transition: 0.5s ease;
+}
+.box6 {
+    height: 350px;
+    width: 250px;
+}
+.box6-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/5088684_a587_7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box6-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.source a {
+    color: black;
+}
+.box7 {
+    height: 350px;
+    width: 250px;
+}
+.box7-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/1026604_790b_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box7-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.box8 {
+    height: 350px;
+    width: 250px;
+}
+.box8-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/3671332_b86a_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box8-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.box9 {
+    height: 350px;
+    width: 250px;
+}
+.box9-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/2508942_11d3_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box9-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 230px;
+}
+.box10 {
+    height: 350px;
+    width: 250px;
+}
+.box10-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/4310698_817f_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box10-link {
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50px;
+    width: 230px;
+}
+.src-link a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+.details2 {
+    margin-top: 15px;
+    margin-left:10px;
+}
+.best-sellr {
+    margin-top:5px;
+    margin-left: 28px;
+}
+.rupaye {
+    margin-top: 30px;
+}
+/* recommended topics from udemy for you building carreer */
+.enrolled {
+    height: 80px;
+    width: 1000px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.recommend {
+    height: 200px;
+    width: 96%;
+    margin: 0 auto;
+}
+.course-btn {
+    height: 70px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.course-btn:hover {
+    background-color: #f7f9fa;
+}
+.r-btn {
+    display: flex;
+    align-items: center;
+}
+.r-btn2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+/* course related to button as given above */
+
+.course-video2 {
+    height: 400px;
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.source:hover {
+    box-shadow: 4px 4px 16px black;
+    transition: 0.5s ease;
+}
+.box6 {
+    height: 350px;
+    width: 250px;
+}
+.box6-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/5088684_a587_7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box6-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.source a {
+    color: black;
+}
+.box7 {
+    height: 350px;
+    width: 250px;
+}
+.box7-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/1026604_790b_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box7-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.box8 {
+    height: 350px;
+    width: 250px;
+}
+.box8-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/3671332_b86a_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box8-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+}
+.box9 {
+    height: 350px;
+    width: 250px;
+}
+.box9-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/2508942_11d3_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box9-link {
+    margin-top:5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 230px;
+}
+.box10 {
+    height: 350px;
+    width: 250px;
+}
+.box10-img {
+    height: 135px;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url("https://img-c.udemycdn.com/course/240x135/4310698_817f_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box10-link {
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50px;
+    width: 230px;
+}
+.src-link a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+.details2 {
+    margin-top: 15px;
+    margin-left:10px;
+}
+.best-sellr {
+    margin-top:5px;
+    margin-left: 28px;
+}
+.rupaye {
+    margin-top: 30px;
+}
+/* the above code is copied from the second video course that wise remember to change 
+the class name for not to confuse */
+
+/* this is footer code */
+/* first we will write the code for foot1 */
+.foot1 {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot1-content {
+    margin-left: 30px;
+    color: white;
+}
+.foot1-content h1+p {
+    font-size: 20px;
+}
+.teacher {
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.teacher:hover {
+    background-color: #f7f9fa;
+}
+/* first we will write the code for foot2 */
+
+.foot2 {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h2-link {
+    height:100px;
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.foot2-link {
+    color: white;
+}
+.foot2-link:hover {
+    color: blueviolet;
+}
+.foot2-img {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot2-img1 {
+    height: 44px;
+    width: 115px;
+    background-image: url("https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot2-img2 {
+    height: 44px;
+    width: 44px;
+    background-image: url("https://s.udemycdn.com/partner-logos/v4/volkswagen-light.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot2-img3 {
+    height: 44px;
+    width: 67px;
+    background-image: url("https://s.udemycdn.com/partner-logos/v4/box-light.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot2-img4 {
+    height: 44px;
+    width: 115px;
+    background-image: url("https://s.udemycdn.com/partner-logos/v4/netapp-light.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot2-img5 {
+    height: 44px;
+    width: 115px;
+    background-image: url("https://s.udemycdn.com/partner-logos/v4/eventbrite-light.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foot3 {
+    height: 200px;
+    width: 1349px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+li a {
+    color: white;
+}
+.lang-btn {
+    height:50px;
+    width: 150px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+li {
+    margin-top: 10px;
+}
+li a:hover {
+    text-decoration: underline;
+}
+.global-language {
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+}
+.global-text {
+    color: black;
+    font-size: 20px;
+}
+.foot3-unordered {
+    margin-top: 30px;
+}
+/* last foot */
+.last-footer {
+    height: 100px;
+    width: 1349px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-div {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.logo-img-div {
+    height: 35px;
+    width: 92px;
+    margin-left: 30px;
+    background-image: url("logo-udemy-inverted.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.copy-div {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    height: 35px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright h1 {
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
